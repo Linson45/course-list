@@ -1,0 +1,23 @@
+/*.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #353535a3;
+    z-index: 3;
+     display:none;
+
+@media only screen and (max-width: 1199px) {
+    .overlay {
+        display:block;
+      }
+
+} */
+
+/* .dashboard-core-container {
+  height: 100vh;
+} */
+
+.ant-layout {
+  min-height: 100vh !important;
+}

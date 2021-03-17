@@ -1,0 +1,195 @@
+.default-table th {
+  text-align: center !important;
+  padding: 12px 10px !important;
+  background-color: #3033ba !important;
+  color: white !important;
+  height: 60px;
+}
+
+.default-table th i {
+  padding-right: 0px !important;
+  padding-left: 10px !important;
+}
+
+.default-table td {
+  color: black;
+}
+
+.ant-table {
+  overflow: auto;
+  border: none;
+}
+
+.default-table th {
+  font-size: 14px;
+}
+.default-table tr th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+th.ant-table-cell.ant-table-cell-fix-left {
+  z-index: 3;
+}
+
+.default-table {
+  margin-top: 8px !important;
+}
+
+.ant-table.ant-table-small .ant-table-tbody>tr>td {
+  padding: 8px 12px;
+}
+
+.addnewBtn {
+  background: #38495b;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.addnewBtn:hover, .addnewBtn:focus {
+  background: #2e353d;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.addnewBtn button:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+.pagination-display {
+  margin: 16px 0px 16px 5px;
+  color: black;
+}
+
+.ant-pagination-item-active a, .ant-pagination-item a {
+  text-decoration: none;
+}
+
+.ant-pagination span svg {
+  vertical-align: middle;
+}
+
+.ant-pagination button.ant-pagination-item-link {
+  padding: 0px 10px;
+}
+
+.ant-table-column-sorters {
+  padding: 0px !important;
+}
+td.ant-table-column-sort {
+  background: inherit;
+}
+
+.ant-table-column-sorters, .ant-table.ant-table-small .ant-table-thead .ant-table-column-sorters {
+  padding: 0px;
+}
+/* .default-table tr:hover  */
+.ant-table-tbody > tr.ant-table-row:hover > td{
+  background-color: #d8d8d8;
+  /* background-color:transparent; */
+  transition: 0s;
+}
+
+.ant-table.ant-table-bordered>.ant-table-container {
+  border: none;
+}
+
+.ant-table-cell-fix-left, .ant-table-cell-fix-right {
+ background-color: inherit; 
+ /* z-index: 2 !important;  */
+}
+
+.default-table.ant-table-wrapper::after {
+  clear: none;
+  content: "";
+}
+
+.default-table .ant-pagination-item a {
+  text-decoration: none;
+}
+
+.ant-table-pagination.ant-pagination button {
+  padding: 0px 15px;
+}
+
+.ant-table-pagination.ant-pagination {
+  float: right;
+}
+
+.default-table .ant-input-number, .default-table .ant-input {
+  padding: 0px 11px;
+  min-height: 30px;
+}
+
+.default-table textarea.ant-input {
+  height: auto;
+}
+
+.ant-pagination.mini .ant-pagination-options {
+  display: none;
+}
+
+td.ant-table-cell {
+  text-align: center !important;
+}
+
+.default-table .ant-input-number-input {
+  /* height: 27px; */
+  padding: 0px 4px;
+}
+
+.default-table .ant-input, .default-table .ant-picker-input>input, .default-table .ant-input-number-input, .product-Row .ant-input, .product-Row .ant-picker-input>input, .product-Row .ant-input-number-input {
+  font-size: 13px;
+  text-align: center !important;
+}
+
+/* .product-Row {
+  font-size: 13px;
+} */
+
+.product-Row .ant-col .ant-input-number-input td {
+  padding: 8px 12px;
+}
+
+.default-table .ant-input-number {
+  padding: 0px 4px;
+}
+
+.table_btn {
+  margin-right: 0px;
+  border-radius: 5px;
+  min-width:80px;
+}
+
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+  border: none;
+  background-color: inherit;
+}
+
+.ant-pagination .anticon {
+  vertical-align: middle;
+}
+
+.ant-pagination-item {
+  border: none;
+  background-color: inherit;
+  min-width: 24px;
+  height: 24px;
+  line-height: 22px;
+}
+
+.ant-pagination-item-link a {
+  min-width: 24px;
+  height: 24px;
+  /* line-height: 22px; */
+}
+
+.ant-pagination-item-active a {
+  color: #1890ff;
+  border: 1px solid #1890ff;
+  background-color: white;
+  /* line-height: 22px; */
+}
